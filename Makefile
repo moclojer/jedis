@@ -510,6 +510,9 @@ package: | start mvn-package stop
 mvn-package:
 	mvn clean package
 
+mvn-package-no-tests:
+	mvn clean package -Dmaven.test.skip=true
+
 deploy: | start mvn-deploy stop
 
 mvn-deploy:

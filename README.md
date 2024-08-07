@@ -8,6 +8,11 @@
 [![codecov](https://codecov.io/gh/redis/jedis/branch/master/graph/badge.svg?token=pAstxAAjYo)](https://codecov.io/gh/redis/jedis)
 [![Discord](https://img.shields.io/discord/697882427875393627?style=flat-square)](https://discord.gg/redis)
 
+> [!IMPORTANT]
+> This fork is an internal for clj-rq that has `-parameters` build arg enabled by default.
+
+Build it with `make mvn-package-no-tests`.
+
 ## What is Jedis?
 
 Jedis is a Java client for [Redis](https://github.com/redis/redis "Redis") designed for performance and ease of use.
